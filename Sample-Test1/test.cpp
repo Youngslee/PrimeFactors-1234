@@ -37,4 +37,11 @@ TEST_F(PrimeFixture, Of9) {
 	expected.push_back(3);
 	EXPECT_EQ(expected, prime_factor.of(9));
 }
+TEST_F(PrimeFixture, Of12) {
+	expected.push_back(2);
+	expected.push_back(2);
+	expected.push_back(3);
+	EXPECT_EQ(expected, prime_factor.of(12));
+}
+
 
