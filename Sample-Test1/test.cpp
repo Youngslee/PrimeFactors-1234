@@ -16,3 +16,8 @@ TEST_F(PrimeFixture, Of2) {
 	expected.push_back(2);
 	EXPECT_EQ(expected, prime_factor.of(2));
 }
+
+TEST_F(PrimeFixture, Of3) {
+	expected.push_back(3);
+	EXPECT_EQ(expected, prime_factor.of(3));
+}
